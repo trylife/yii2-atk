@@ -1,0 +1,31 @@
+{
+  "name": "trylife/yii2-atk",
+  "description": "yii2 access token",
+  "keywords": [
+    "yii2",
+    "extension",
+    "access token"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/trylife/yii2-atk/issues?state=open"
+  },
+  "authors": [
+    {
+      "name": "trylife",
+      "email": "trylife@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "trylife\\atk\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "*",
+    "guzzlehttp/guzzle": "*",
+    "ext-json": "*"
+  }
+}
